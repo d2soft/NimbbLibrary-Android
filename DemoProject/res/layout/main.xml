@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1" android:background="#ff1a436b">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logoImageView" android:layout_gravity="center_horizontal" android:src="@drawable/logo"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recordbutton"
+            android:id="@+id/recordButton" android:layout_gravity="center_horizontal" android:clickable="false"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp" android:layout_marginBottom="0dp" android:layout_margin="50dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/logText" android:layout_weight="0.11" android:editable="false" android:inputType="none"
+            />
+</LinearLayout>
+

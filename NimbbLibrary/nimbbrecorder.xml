@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000000" >
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000" >
+        <FrameLayout
+            android:id="@+id/nimbbCameraPreview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+        <LinearLayout android:id="@+id/nimbbCameraButtonsLayout"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:orientation="horizontal"
+                      android:padding="8dp">
+
+            <Button
+                android:id="@+id/nimbbStartCameraButton"
+                android:text="@string/nimbbRecordButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                />
+            <Button
+                android:id="@+id/nimbbSwitchCameraButton"
+                android:text="@string/nimbbSwitchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

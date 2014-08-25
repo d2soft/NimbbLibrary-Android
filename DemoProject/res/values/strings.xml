@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nimbb API Player Demo</string>
+    <string name="recordbutton">Record Video</string>
+    <string name="intro_message">intro_message</string>
+    <string name="btnCapture">START</string>
+    <string name="switchCamera">Switch</string>
+    <string name="fileSizeMaxReached">Video stopped because it did reach max file size</string>
+    <string name="durationReached">Video stopped because it did reach max duration</string>
+    <string name="recordBtn">Start</string>
+    <string name="stopRecordBtn">Stop</string>
+
+    <!-- custom nimbb resources -->
+    <string name="nimbbNoCameraFound">Sorry… you must have a camera to use this app.</string>
+    <string name="nimbbRecordButton">Record</string>
+    <string name="nimbbStopRecordingButton">Stop</string>
+    <string name="nimbbSwitchButton">Switch</string>
+</resources>
