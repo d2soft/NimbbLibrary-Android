@@ -48,6 +48,12 @@ public enum VideoQuality {
 }
 ```
 
+When you want to send the video to the Nimbb server, you need to call the sendVideo method by using the filepath of the video.
+
+```java
+myPlayer.sendVideo(filePath, handler);
+```
+
 ###Handlers interface
 You must implement those interfaces in order to get a callback when a process is completed by the API.
 
