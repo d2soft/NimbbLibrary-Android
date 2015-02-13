@@ -95,4 +95,4 @@ If you want to playback the video into your app, you need to call the  [Live/Pla
 
 ##Sample Project
 
-You can download and test the Example project. This project will give you all the hints you need to use the library. Make sure to add the matching project Bundle ID into the [settings](http://nimbb.com/User/Dev/Settings.aspx) of your Nimbb account (select "iOS application").  Modify the value of kPublicKey in file ViewController.m to match your [public key](http://nimbb.com/User/Dev/Key.aspx).  Run on a physical device to record with the camera.
+You can download and test the Example project. This project will give you all the hints you need to use the library. Make sure to add the matching project's package name into the [settings](http://nimbb.com/User/Dev/Settings.aspx) of your Nimbb account (select "Android application").  Modify the value of kPublicKey in file ViewController.m to match your [public key](http://nimbb.com/User/Dev/Key.aspx).  Run on a physical device to record with the camera.
